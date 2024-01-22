@@ -23,7 +23,5 @@ public class WhileLoop {
 			System.out.print(n + " ");
 			n--;
 		}
-
 	}
-
 }
