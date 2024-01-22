@@ -12,6 +12,7 @@ public class SwitchStatement {
 		System.out.println("2. Lotus");
 		System.out.println("3. Ascent");
 		System.out.println("4. Haven");
+		System.out.println("5. Icebox");
 		int map_no = s.nextInt();
 		
 		switch(map_no) {
@@ -29,6 +30,10 @@ public class SwitchStatement {
 			
 		case 4:
 			System.out.println("Welcome to Haven.");
+			break;
+			
+		case 5:
+			System.out.println("Welcome to Icebox.");
 			break;
 			
 		default: 
