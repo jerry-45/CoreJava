@@ -2,7 +2,7 @@ package com.edubridge.loopingstatements;
 
 import java.util.Scanner;
 
-public class Recursion {
+public class Factorial {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
