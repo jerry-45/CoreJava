@@ -12,7 +12,7 @@ public class RemoveThe {
 		System.out.println("Enter a sentence: ");
 		String input = s.nextLine();
 		
-		String result = input.replaceAll("\\bthe\\b", "");
+		String result = input.replaceAll("the", "");
 		
 		System.out.println(result);
 	}
