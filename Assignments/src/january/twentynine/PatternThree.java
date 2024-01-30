@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PatternThree {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stubs]
+		// TODO Auto-generated method stubs
 		
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
