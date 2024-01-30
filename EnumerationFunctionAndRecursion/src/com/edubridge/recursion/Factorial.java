@@ -2,7 +2,7 @@ package com.edubridge.recursion;
 
 import java.util.Scanner;
 
-public class Recursion {
+public class Factorial {
 	
 	static int factorial(int n) {
 		if(n == 0)
