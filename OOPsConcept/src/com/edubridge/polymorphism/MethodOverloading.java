@@ -1,5 +1,8 @@
 package com.edubridge.polymorphism;
 
+// overloading (compiletime static)
+// method have same name with different parameters
+
 class Calculation{
 	void add(String a, String b) {
 		System.out.println("Addition is " + (a+b));
@@ -14,7 +17,7 @@ class Calculation{
 	}
 }
 
-public class PolymorphismDemo {
+public class MethodOverloading {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
