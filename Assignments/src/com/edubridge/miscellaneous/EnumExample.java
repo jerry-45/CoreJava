@@ -1,6 +1,8 @@
 package com.edubridge.miscellaneous;
 
 /*
+	Date: 2nd February 2024
+	
 	Write a Java program to implement an enum called "Direction" with constants 
 	representing the cardinal directions (North, South, East, West).
 */
