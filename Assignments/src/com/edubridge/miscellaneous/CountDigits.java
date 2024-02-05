@@ -1,4 +1,4 @@
-package com.edubridge.countdigit;
+package com.edubridge.miscellaneous;
 
 import java.util.Scanner;
 
