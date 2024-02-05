@@ -1,4 +1,4 @@
-package com.edubridge.miscellaneous;
+package com.edubridge.string;
 
 import java.util.Scanner;
 
