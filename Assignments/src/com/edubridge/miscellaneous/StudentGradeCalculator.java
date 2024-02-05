@@ -1,4 +1,4 @@
-package com.edubridge.studentgradecalculator;
+package com.edubridge.miscellaneous;
 
 /*
  * A school has following rules for grading system:
@@ -13,7 +13,7 @@ Ask user to enter marks and print the corresponding grade.
 
 import java.util.Scanner;
 
-public class GradeCalculator {
+public class StudentGradeCalculator {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
