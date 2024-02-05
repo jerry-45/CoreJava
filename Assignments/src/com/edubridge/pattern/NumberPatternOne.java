@@ -1,4 +1,4 @@
-package com.edubridge.assignments;
+package com.edubridge.pattern;
 
 public class NumberPatternOne {
 
