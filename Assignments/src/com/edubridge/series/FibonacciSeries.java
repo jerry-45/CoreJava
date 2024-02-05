@@ -1,4 +1,4 @@
-package com.edubridge.assignments;
+package com.edubridge.series;
 
 import java.util.Scanner;
 
