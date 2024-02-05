@@ -1,5 +1,6 @@
-package com.edubridge.assignment;
+package com.edubridge.miscellaneous;
 
+// (Online Class)
 // Create a class named 'Shape' with a method to print "This is This is shape". 
 // Then create two other classes named 'Rectangle', 'Circle' inheriting the Shape class, 
 // both having a method to print "This is rectangular shape" and "This is circular shape" respectively. 
@@ -30,7 +31,7 @@ class Square extends Rectangle{
 	}
 }
 
-public class Assignment1 {
+public class InheritanceExampleOne {
 	
 	public static void main(String[] args) {
 		Square square = new Square();
