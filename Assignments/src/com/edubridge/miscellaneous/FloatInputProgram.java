@@ -3,6 +3,8 @@ package com.edubridge.miscellaneous;
 import java.util.Scanner;
 
 /*
+	Date: 19th January 2024
+	
 	Float Input
 	Write a program to get float as input and print it. 
 	The Scanner class reads formatted input from the keyboard. 
