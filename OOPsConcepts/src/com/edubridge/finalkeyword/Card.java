@@ -9,7 +9,7 @@ public class Card {
 	// we cannot set or change the value of final variable
 	private final String issuer = "GOI";
 	
-	public String getCardName() {
+	public final String getCardName() {
 		return cardName;
 	}
 	
@@ -24,6 +24,10 @@ public class Card {
 	@Override
 	public String toString() {
 		return "Card [cardName=" + cardName + ", issuer=" + issuer + ", toString()=" + super.toString() + "]";
+	}
+	
+	final void accept() {
+		System.out.println("Final Method");
 	}
 	
 }

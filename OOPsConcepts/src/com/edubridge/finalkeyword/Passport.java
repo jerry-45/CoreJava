@@ -22,4 +22,10 @@ public class Passport extends Card{
 				+ super.toString() + "]";
 	}
 	
+	// we cannot override final method
+	/*
+	final void accept() {
+		System.out.println("Final Method");
+	}
+	*/
 }
