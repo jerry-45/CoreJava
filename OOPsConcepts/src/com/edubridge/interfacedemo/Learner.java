@@ -1,4 +1,4 @@
-package com.edubridge.interfaces;
+package com.edubridge.interfacedemo;
 
 // Implementable Class
 public class Learner implements Deletable {

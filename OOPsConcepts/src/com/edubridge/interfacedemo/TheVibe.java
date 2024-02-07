@@ -1,4 +1,4 @@
-package com.edubridge.interfaces;
+package com.edubridge.interfacedemo;
 
 // Implementable class
 // A class can implements an interface

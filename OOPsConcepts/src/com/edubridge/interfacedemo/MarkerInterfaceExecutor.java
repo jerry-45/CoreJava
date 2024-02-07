@@ -1,4 +1,4 @@
-package com.edubridge.interfaces;
+package com.edubridge.interfacedemo;
 
 // Program to demonstrate on Marker Interface
 

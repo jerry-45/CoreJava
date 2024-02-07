@@ -1,4 +1,4 @@
-package com.edubridge.interfaces;
+package com.edubridge.interfacedemo;
 
 public interface Cafe {
 	// all the fields inside an interface are by default public static final

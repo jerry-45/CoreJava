@@ -1,4 +1,4 @@
-package com.edubridge.interfaces;
+package com.edubridge.interfacedemo;
 
 // Driver Class
 // Program to demonstrate on Functional Interface without Lambda Expression
