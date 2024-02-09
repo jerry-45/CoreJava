@@ -16,9 +16,7 @@ public class CustomExceptionDemo {
 				throw new LoginCredentials("Invalid Credentials");
 		}
 		catch (LoginCredentials e) {
-			System.out.println(e);
+			System.out.println();
 		}
-
 	}
-
 }
