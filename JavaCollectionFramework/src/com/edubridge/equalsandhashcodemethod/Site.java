@@ -7,6 +7,8 @@ public class Site {
 	private String name;
 	private Integer id;
 	
+	// overriding hashCode() and equals() method
+	
 	// Only using hashCode() method, when we compare two objects, 
 	// we will not get the comparison as true... for that we need 
 	// to override equals method
@@ -51,5 +53,5 @@ public class Site {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	
+
 }
