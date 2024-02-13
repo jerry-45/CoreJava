@@ -1,4 +1,4 @@
-package com.edubridge.equalsmethod;
+package com.edubridge.equalsandhashcodemethod;
 
 public class SiteExecutor {
 
