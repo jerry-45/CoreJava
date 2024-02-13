@@ -11,6 +11,7 @@ public class HashMapDemo {
 		obj.put(2, "Atul");
 		obj.put(1, "Durvesh");
 		obj.put(1, "Niraj");
+		obj.put(7, null);
 		
 		System.out.println(obj);
 		System.out.println(obj.containsKey(5));
