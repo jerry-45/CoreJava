@@ -3,6 +3,7 @@ package com.edubridge.interfacedemo;
 import java.util.ArrayList;
 import java.util.Collections;
 
+// Comparable Interface
 public class Product implements Comparable<Product> {
 
 	private String pname;
@@ -47,11 +48,20 @@ public class Product implements Comparable<Product> {
 	
 	public static void main(String[] args) {
 		ArrayList<Product> list = new ArrayList<Product>();
-		list.add(new Product("Speakers", 4000, 4));
+		list.add(new Product("Speakers", 4000, 2));
 		list.add(new Product("Monitor", 9000, 5));
 		list.add(new Product("Mouse", 1500, 4));
-		Collections.sort(list);
+		list.add(new Product("Keyboard", 2500, 3));
 		
+		System.out.println("Comparing Price by Comparable Interface");
+		Collections.sort(list);
+		for(Product p : list) {
+			System.out.println("Product Name: " + p.getPname() + "\tProduct Price: " + p.getPrice() + "\tProduct Rating: " + p.getRating());
+		}
+		
+		System.out.println("Comparing Rating by Comparator Interface");
+		RatingCompare rc = new RatingCompare();
+		Collections.sort(list, rc);
 		for(Product p : list) {
 			System.out.println("Product Name: " + p.getPname() + "\tProduct Price: " + p.getPrice() + "\tProduct Rating: " + p.getRating());
 		}
