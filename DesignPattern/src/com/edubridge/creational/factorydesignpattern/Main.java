@@ -16,7 +16,7 @@ public class Main {
 		
 		CellularPlan cp = snp.getPlan(networkName);
 		
-		System.out.print("Bill amount for " + networkName + " is ");
+		System.out.println("Bill amount for " + networkName + " of " + min);
 		
 		cp.getRate();
 		
